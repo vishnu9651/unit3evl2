@@ -1,0 +1,40 @@
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border:1px solid green;
+    grid-auto-rows: auto;
+    line-height: 2px;
+
+}
+#menu div{
+    border:1px solid yellow;
+    margin:5px;
+    text-align: center;
+}
+img{
+    height:140px;
+    width:140px;
+
+border:1px solid blue}
+#navbar{
+    display:flex;
+    justify-content: end;
+    
+    border:1px solid red;
+    height: 50px;
+    width:100%
+}
+#navbar div{
+    margin-left: 5px;
+}
+
+#count{
+    border:1px solid red;
+    height:20px;
+    width: 50px;
+
+}
+button{
+    height:20px;
+    
+}
