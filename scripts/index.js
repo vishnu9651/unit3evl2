@@ -24,6 +24,7 @@ function show(menu){
 price.innerText=el.price      
 let bucket=document.createElement("button")
 bucket.textContent="add to bucket" 
+bucket.id="add_to_bucket"
 bucket.addEventListener("click",function(){
     addtobucket(el)
 }) 
